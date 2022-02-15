@@ -1,0 +1,17 @@
+.boxes {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.253);
+    
+    border: 2px solid rgb(255, 255, 255);
+
+    box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.473);
+
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.closebtn {
+    margin-left: 94% !important;
+}

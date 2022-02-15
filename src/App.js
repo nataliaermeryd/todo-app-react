@@ -26,7 +26,7 @@ function App() {
     const filterTodos = todos.filter((todo) => todo.id != id)
     setTodos(filterTodos)
   }
-
+    
   return (
     <div className="container">
       <div style={{display: 'flex'}}>
@@ -38,7 +38,7 @@ function App() {
             console.log(event.target.value)
             setDescription(event.target.value)
         }} />
-        <button onClick={addTodo}>ADD TODO</button>
+        <button onClick={addTodo}>+</button>
       </div>
       {todos.map(({id, title, description}) => {
         return <Todo key={id} id={id} title={title} description={description} onDelete={deleteTodo} />
