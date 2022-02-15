@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(0.25turn, rgb(255, 189, 150), #e66465, #9198e5);
+
+}
+
+.container {
+  margin: auto;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.fields {
+  border: 1px solid #dadada;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.616);
+  color: white; 
+  border-color: white;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.836);
+}
